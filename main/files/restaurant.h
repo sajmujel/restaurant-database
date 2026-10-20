@@ -1,0 +1,17 @@
+void addRestaurant(); 
+void editRestaurant(); 
+void deleteRestaurant();
+void loadRestaurantsFromFile();
+void freeRestaurants();
+void viewRestaurant();
+void searchByRating();
+void searchAplhabetically();
+void rateRestaurant();
+void returnToMenu(const char* sectionText, void (*returnFunction)());
+void memoryAllocationPrevention(void* ptr);
+void appendFile(void* ptr);
+void getYesNoChoice(const char* printfTextFill, void (*yesFunction)(), void(*noFunction)());
+int getRestaurantCount(void* ptr);
+void printResList(void* ptr);
+int getRestaurantIndex(const char* printTextFill, int resCount);
+void overwriteFile(void* ptr);
